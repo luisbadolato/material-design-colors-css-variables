@@ -1,7 +1,10 @@
-/* =============================== */
-/* ==  MATERIAL COLORS PALETTE  == */
-/* === WITH 'MATERIAL' PREFIX  === */
-/* =============================== */
+/* ============================================ */
+/* ==     MATERIAL DESIGN COLORS PALETTE     == */
+/* ==  https://material.io/resources/color/  == */
+/* ============================================ */
+/* ==    VARIABLES WITH 'MATERIAL' PREFIX    == */
+/* ============================================ */
+
 
 
 :root {
@@ -10,6 +13,7 @@
 	/* SMALL PALETTE */
 	/* ============= */
 
+	/* MEDIUM SHADE */
 	--material-color-red: var(--material-color-red-500);
 	--material-color-pink: var(--material-color-pink-500);
 	--material-color-purple: var(--material-color-purple-500);
@@ -30,281 +34,1124 @@
 	--material-color-grey: var(--material-color-grey-500);
 	--material-color-blue-grey: var(--material-color-blue-grey-500);
 
+	/* LIGHT SHADE */
+	--material-color-red-light: var(--material-color-red-500-light);
+	--material-color-pink-light: var(--material-color-pink-500-light);
+	--material-color-purple-light: var(--material-color-purple-500-light);
+	--material-color-deep-purple-light: var(--material-color-deep-purple-500-light);
+	--material-color-indigo-light: var(--material-color-indigo-500-light);
+	--material-color-blue-light: var(--material-color-blue-500-light);
+	--material-color-light-blue-light: var(--material-color-light-blue-500-light);
+	--material-color-cyan-light: var(--material-color-cyan-500-light);
+	--material-color-teal-light: var(--material-color-teal-500-light);
+	--material-color-green-light: var(--material-color-green-500-light); 
+	--material-color-light-green-light: var(--material-color-light-green-500-light);
+	--material-color-lime-light: var(--material-color-lime-500-light);
+	--material-color-yellow-light: var(--material-color-yellow-500-light);
+	--material-color-amber-light: var(--material-color-amber-500-light);
+	--material-color-orange-light: var(--material-color-orange-500-light);
+	--material-color-deep-orange-light: var(--material-color-deep-orange-500-light);
+	--material-color-brown-light: var(--material-color-brown-500-light);
+	--material-color-grey-light: var(--material-color-grey-500-light);
+	--material-color-blue-grey-light: var(--material-color-blue-grey-500-light);
+
+	/* DARK SHADE */
+	--material-color-red-dark: var(--material-color-red-500-dark);
+	--material-color-pink-dark: var(--material-color-pink-500-dark);
+	--material-color-purple-dark: var(--material-color-purple-500-dark);
+	--material-color-deep-purple-dark: var(--material-color-deep-purple-500-dark);
+	--material-color-indigo-dark: var(--material-color-indigo-500-dark);
+	--material-color-blue-dark: var(--material-color-blue-500-dark);
+	--material-color-light-blue-dark: var(--material-color-light-blue-500-dark);
+	--material-color-cyan-dark: var(--material-color-cyan-500-dark);
+	--material-color-teal-dark: var(--material-color-teal-500-dark);
+	--material-color-green-dark: var(--material-color-green-500-dark); 
+	--material-color-light-green-dark: var(--material-color-light-green-500-dark);
+	--material-color-lime-dark: var(--material-color-lime-500-dark);
+	--material-color-yellow-dark: var(--material-color-yellow-500-dark);
+	--material-color-amber-dark: var(--material-color-amber-500-dark);
+	--material-color-orange-dark: var(--material-color-orange-500-dark);
+	--material-color-deep-orange-dark: var(--material-color-deep-orange-500-dark);
+	--material-color-brown-dark: var(--material-color-brown-500-dark);
+	--material-color-grey-dark: var(--material-color-grey-500-dark);
+	--material-color-blue-grey-dark: var(--material-color-blue-grey-500-dark);
+
 
 	/* ============ */
 	/* FULL PALETTE */
 	/* ============ */
 
+	
+	/* RED */
+
 	--material-color-red-50: #ffebee;
+	--material-color-red-50-light: #ffffff;
+	--material-color-red-50-dark: #ccb9bc;
+
 	--material-color-red-100: #ffcdd2;
+	--material-color-red-100-light: #ffffff;
+	--material-color-red-100-dark: #cb9ca1;
+
 	--material-color-red-200: #ef9a9a;
+	--material-color-red-200-light: #ffcccb;
+	--material-color-red-200-dark: #ba6b6c;
+
 	--material-color-red-300: #e57373;
+	--material-color-red-300-light: #ffa4a2;
+	--material-color-red-300-dark: #af4448;
+
 	--material-color-red-400: #ef5350;
+	--material-color-red-400-light: #ff867c;
+	--material-color-red-400-dark: #b61827;
+
 	--material-color-red-500: #f44336;
+	--material-color-red-500-light: #ff7961;
+	--material-color-red-500-dark: #ba000d;
+
 	--material-color-red-600: #e53935;
+	--material-color-red-600-light: #ff6f60;
+	--material-color-red-600-dark: #ab000d;
+
 	--material-color-red-700: #d32f2f;
+	--material-color-red-700-light: #ff6659;
+	--material-color-red-700-dark: #9a0007;
+
 	--material-color-red-800: #c62828;
+	--material-color-red-800-light: #ff5f52;
+	--material-color-red-800-dark: #8e0000;
+
 	--material-color-red-900: #b71c1c;
+	--material-color-red-900-light: #f05545;
+	--material-color-red-900-dark: #7f0000;
+
 	--material-color-red-a100: #ff8a80;
+	--material-color-red-a100-light: #ffbcaf;
+	--material-color-red-a100-dark: #c85a54;
+
 	--material-color-red-a200: #ff5252;
+	--material-color-red-a200-light: #ff867f;
+	--material-color-red-a200-dark: #c50e29;
+
 	--material-color-red-a400: #ff1744;
+	--material-color-red-a400-light: #ff616f;
+	--material-color-red-a400-dark: #c4001d;
+
 	--material-color-red-a700: #d50000;
+	--material-color-red-a700-light: #ff5131;
+	--material-color-red-a700-dark: #9b0000;
+
+
+	/* PINK */
 
 	--material-color-pink-50: #fce4ec;
+	--material-color-pink-50-light: #fce4ec;
+	--material-color-pink-50-dark: #fce4ec;
+
 	--material-color-pink-100: #f8bbd0;
+	--material-color-pink-100-light: #f8bbd0;
+	--material-color-pink-100-dark: #f8bbd0;
+
 	--material-color-pink-200: #f48fb1;
+	--material-color-pink-200-light: #f48fb1;
+	--material-color-pink-200-dark: #f48fb1;
+
 	--material-color-pink-300: #f06292;
+	--material-color-pink-300-light: #f06292;
+	--material-color-pink-300-dark: #f06292;
+
 	--material-color-pink-400: #ec407a;
+	--material-color-pink-400-light: #ec407a;
+	--material-color-pink-400-dark: #ec407a;
+
 	--material-color-pink-500: #e91e63;
+	--material-color-pink-500-light: #e91e63;
+	--material-color-pink-500-dark: #e91e63;
+
 	--material-color-pink-600: #d81b60;
+	--material-color-pink-600-light: #d81b60;
+	--material-color-pink-600-dark: #d81b60;
+
 	--material-color-pink-700: #c2185b;
+	--material-color-pink-700-light: #c2185b;
+	--material-color-pink-700-dark: #c2185b;
+
 	--material-color-pink-800: #ad1457;
+	--material-color-pink-800-light: #ad1457;
+	--material-color-pink-800-dark: #ad1457;
+
 	--material-color-pink-900: #880e4f;
+	--material-color-pink-900-light: #880e4f;
+	--material-color-pink-900-dark: #880e4f;
+
 	--material-color-pink-a100: #ff80ab;
+	--material-color-pink-a100-light: #ff80ab;
+	--material-color-pink-a100-dark: #ff80ab;
+
 	--material-color-pink-a200: #ff4081;
+	--material-color-pink-a200-light: #ff4081;
+	--material-color-pink-a200-dark: #ff4081;
+
 	--material-color-pink-a400: #f50057;
+	--material-color-pink-a400-light: #f50057;
+	--material-color-pink-a400-dark: #f50057;
+
 	--material-color-pink-a700: #c51162;
+	--material-color-pink-a700-light: #c51162;
+	--material-color-pink-a700-dark: #c51162;
+
+
+	/* PURPLE */
 
 	--material-color-purple-50: #f3e5f5;
+	--material-color-purple-50-light: #ffffff;
+	--material-color-purple-50-dark: #c0b3c2;
+
 	--material-color-purple-100: #e1bee7;
+	--material-color-purple-100-light: #fff1ff;
+	--material-color-purple-100-dark: #af8eb5;
+
 	--material-color-purple-200: #ce93d8;
+	--material-color-purple-200-light: #ffc4ff;
+	--material-color-purple-200-dark: #9c64a6;
+
 	--material-color-purple-300: #ba68c8;
+	--material-color-purple-300-light: #ee98fb;
+	--material-color-purple-300-dark: #883997;
+
 	--material-color-purple-400: #ab47bc;
+	--material-color-purple-400-light: #df78ef;
+	--material-color-purple-400-dark: #790e8b;
+
 	--material-color-purple-500: #9c27b0;
+	--material-color-purple-500-light: #d05ce3;
+	--material-color-purple-500-dark: #6a0080;
+
 	--material-color-purple-600: #8e24aa;
+	--material-color-purple-600-light: #c158dc;
+	--material-color-purple-600-dark: #5c007a;
+
 	--material-color-purple-700: #7b1fa2;
+	--material-color-purple-700-light: #ae52d4;
+	--material-color-purple-700-dark: #4a0072;
+
 	--material-color-purple-800: #6a1b9a;
+	--material-color-purple-800-light: #9c4dcc;
+	--material-color-purple-800-dark: #38006b;
+
 	--material-color-purple-900: #4a148c;
+	--material-color-purple-900-light: #7c43bd;
+	--material-color-purple-900-dark: #12005e;
+
 	--material-color-purple-a100: #ea80fc;
+	--material-color-purple-a100-light: #ffb2ff;
+	--material-color-purple-a100-dark: #b64fc8;
+
 	--material-color-purple-a200: #e040fb;
+	--material-color-purple-a200-light: #ff79ff;
+	--material-color-purple-a200-dark: #aa00c7;
+
 	--material-color-purple-a400: #d500f9;
-	--material-color-purple-a700: #a0f;
+	--material-color-purple-a400-light: #ff5bff;
+	--material-color-purple-a400-dark: #9e00c5;
+
+	--material-color-purple-a700: #aa00ff;
+	--material-color-purple-a700-light: #e254ff;
+	--material-color-purple-a700-dark: #7200ca;
+
+	
+	/* DEEP PURPLE */
 
 	--material-color-deep-purple-50: #ede7f6;
+	--material-color-deep-purple-50-light: #ffffff;
+	--material-color-deep-purple-50-dark: #bbb5c3;
+
 	--material-color-deep-purple-100: #d1c4e9;
+	--material-color-deep-purple-100-light: #fff7ff;
+	--material-color-deep-purple-100-dark: #a094b7;
+
 	--material-color-deep-purple-200: #b39ddb;
+	--material-color-deep-purple-200-light: #e6ceff;
+	--material-color-deep-purple-200-dark: #836fa9;
+
 	--material-color-deep-purple-300: #9575cd;
+	--material-color-deep-purple-300-light: #c7a4ff;
+	--material-color-deep-purple-300-dark: #65499c;
+
 	--material-color-deep-purple-400: #7e57c2;
+	--material-color-deep-purple-400-light: #b085f5;
+	--material-color-deep-purple-400-dark: #4d2c91;
+
 	--material-color-deep-purple-500: #673ab7;
+	--material-color-deep-purple-500-light: #9a67ea;
+	--material-color-deep-purple-500-dark: #320b86;
+
 	--material-color-deep-purple-600: #5e35b1;
+	--material-color-deep-purple-600-light: #9162e4;
+	--material-color-deep-purple-600-dark: #280680;
+
 	--material-color-deep-purple-700: #512da8;
+	--material-color-deep-purple-700-light: #8559da;
+	--material-color-deep-purple-700-dark: #140078;
+
 	--material-color-deep-purple-800: #4527a0;
+	--material-color-deep-purple-800-light: #7953d2;
+	--material-color-deep-purple-800-dark: #000070;
+
 	--material-color-deep-purple-900: #311b92;
+	--material-color-deep-purple-900-light: #6746c3;
+	--material-color-deep-purple-900-dark: #000063;
+
 	--material-color-deep-purple-a100: #b388ff;
+	--material-color-deep-purple-a100-light: #e7b9ff;
+	--material-color-deep-purple-a100-dark: #805acb;
+
 	--material-color-deep-purple-a200: #7c4dff;
+	--material-color-deep-purple-a200-light: #b47cff;
+	--material-color-deep-purple-a200-dark: #3f1dcb;
+
 	--material-color-deep-purple-a400: #651fff;
+	--material-color-deep-purple-a400-light: #a255ff;
+	--material-color-deep-purple-a400-dark: #0100ca;
+
 	--material-color-deep-purple-a700: #6200ea;
+	--material-color-deep-purple-a700-light: #9d46ff;
+	--material-color-deep-purple-a700-dark: #0a00b6;
+
+
+	/* INDIGO */
 
 	--material-color-indigo-50: #e8eaf6;
+	--material-color-indigo-50-light: #ffffff;
+	--material-color-indigo-50-dark: #b6b8c3;
+
 	--material-color-indigo-100: #c5cae9;
+	--material-color-indigo-100-light: #f8fdff;
+	--material-color-indigo-100-dark: #9499b7;
+
 	--material-color-indigo-200: #9fa8da;
+	--material-color-indigo-200-light: #d1d9ff;
+	--material-color-indigo-200-dark: #6f79a8;
+
 	--material-color-indigo-300: #7986cb;
+	--material-color-indigo-300-light: #aab6fe;
+	--material-color-indigo-300-dark: #49599a;
+
 	--material-color-indigo-400: #5c6bc0;
+	--material-color-indigo-400-light: #8e99f3;
+	--material-color-indigo-400-dark: #26418f;
+
 	--material-color-indigo-500: #3f51b5;
+	--material-color-indigo-500-light: #757de8;
+	--material-color-indigo-500-dark: #002984;
+
 	--material-color-indigo-600: #3949ab;
+	--material-color-indigo-600-light: #6f74dd;
+	--material-color-indigo-600-dark: #00227b;
+
 	--material-color-indigo-700: #303f9f;
+	--material-color-indigo-700-light: #666ad1;
+	--material-color-indigo-700-dark: #001970;
+
 	--material-color-indigo-800: #283593;
+	--material-color-indigo-800-light: #5f5fc4;
+	--material-color-indigo-800-dark: #001064;
+
 	--material-color-indigo-900: #1a237e;
+	--material-color-indigo-900-light: #534bae;
+	--material-color-indigo-900-dark: #000051;
+
 	--material-color-indigo-a100: #8c9eff;
+	--material-color-indigo-a100-light: #c0cfff;
+	--material-color-indigo-a100-dark: #5870cb;
+
 	--material-color-indigo-a200: #536dfe;
+	--material-color-indigo-a200-light: #8f9bff;
+	--material-color-indigo-a200-dark: #0043ca;
+
 	--material-color-indigo-a400: #3d5afe;
+	--material-color-indigo-a400-light: #8187ff;
+	--material-color-indigo-a400-dark: #0031ca;
+
 	--material-color-indigo-a700: #304ffe;
+	--material-color-indigo-a700-light: #7a7cff;
+	--material-color-indigo-a700-dark: #0026ca;
+
+
+	/* BLUE */
 
 	--material-color-blue-50: #e3f2fd;
+	--material-color-blue-50-light: #ffffff;
+	--material-color-blue-50-dark: #b1bfca;
+
 	--material-color-blue-100: #bbdefb;
+	--material-color-blue-100-light: #eeffff;
+	--material-color-blue-100-dark: #8aacc8;
+
 	--material-color-blue-200: #90caf9;
+	--material-color-blue-200-light: #c3fdff;
+	--material-color-blue-200-dark: #5d99c6;
+
 	--material-color-blue-300: #64b5f6;
+	--material-color-blue-300-light: #9be7ff;
+	--material-color-blue-300-dark: #2286c3;
+
 	--material-color-blue-400: #42a5f5;
+	--material-color-blue-400-light: #80d6ff;
+	--material-color-blue-400-dark: #0077c2;
+
 	--material-color-blue-500: #2196f3;
+	--material-color-blue-500-light: #6ec6ff;
+	--material-color-blue-500-dark: #0069c0;
+
 	--material-color-blue-600: #1e88e5;
+	--material-color-blue-600-light: #6ab7ff;
+	--material-color-blue-600-dark: #005cb2;
+
 	--material-color-blue-700: #1976d2;
+	--material-color-blue-700-light: #63a4ff;
+	--material-color-blue-700-dark: #004ba0;
+
 	--material-color-blue-800: #1565c0;
+	--material-color-blue-800-light: #5e92f3;
+	--material-color-blue-800-dark: #003c8f;
+
 	--material-color-blue-900: #0d47a1;
+	--material-color-blue-900-light: #5472d3;
+	--material-color-blue-900-dark: #002171;
+
 	--material-color-blue-a100: #82b1ff;
+	--material-color-blue-a100-light: #b6e3ff;
+	--material-color-blue-a100-dark: #4d82cb;
+
 	--material-color-blue-a200: #448aff;
+	--material-color-blue-a200-light: #83b9ff;
+	--material-color-blue-a200-dark: #005ecb;
+
 	--material-color-blue-a400: #2979ff;
+	--material-color-blue-a400-light: #75a7ff;
+	--material-color-blue-a400-dark: #004ecb;
+
 	--material-color-blue-a700: #2962ff;
+	--material-color-blue-a700-light: #768fff;
+	--material-color-blue-a700-dark: #0039cb;
+
+
+	/* LIGHT BLUE */
 
 	--material-color-light-blue-50: #e1f5fe;
+	--material-color-light-blue-50-light: #ffffff;
+	--material-color-light-blue-50-dark: #afc2cb;
+
 	--material-color-light-blue-100: #b3e5fc;
+	--material-color-light-blue-100-light: #e6ffff;
+	--material-color-light-blue-100-dark: #82b3c9;
+
 	--material-color-light-blue-200: #81d4fa;
+	--material-color-light-blue-200-light: #b6ffff;
+	--material-color-light-blue-200-dark: #4ba3c7;
+
 	--material-color-light-blue-300: #4fc3f7;
+	--material-color-light-blue-300-light: #8bf6ff;
+	--material-color-light-blue-300-dark: #0093c4;
+
 	--material-color-light-blue-400: #29b6f6;
+	--material-color-light-blue-400-light: #73e8ff;
+	--material-color-light-blue-400-dark: #0086c3;
+
 	--material-color-light-blue-500: #03a9f4;
+	--material-color-light-blue-500-light: #67daff;
+	--material-color-light-blue-500-dark: #007ac1;
+
 	--material-color-light-blue-600: #039be5;
+	--material-color-light-blue-600-light: #63ccff;
+	--material-color-light-blue-600-dark: #006db3;
+
 	--material-color-light-blue-700: #0288d1;
+	--material-color-light-blue-700-light: #5eb8ff;
+	--material-color-light-blue-700-dark: #005b9f;
+
 	--material-color-light-blue-800: #0277bd;
+	--material-color-light-blue-800-light: #58a5f0;
+	--material-color-light-blue-800-dark: #004c8c;
+
 	--material-color-light-blue-900: #01579b;
+	--material-color-light-blue-900-light: #4f83cc;
+	--material-color-light-blue-900-dark: #002f6c;
+
 	--material-color-light-blue-a100: #80d8ff;
+	--material-color-light-blue-a100-light: #b5ffff;
+	--material-color-light-blue-a100-dark: #49a7cc;
+
 	--material-color-light-blue-a200: #40c4ff;
+	--material-color-light-blue-a200-light: #82f7ff;
+	--material-color-light-blue-a200-dark: #0094cc;
+
 	--material-color-light-blue-a400: #00b0ff;
+	--material-color-light-blue-a400-light: #69e2ff;
+	--material-color-light-blue-a400-dark: #0081cb;
+
 	--material-color-light-blue-a700: #0091ea;
+	--material-color-light-blue-a700-light: #64c1ff;
+	--material-color-light-blue-a700-dark: #0064b7;
+
+
+	/* CYAN */
 
 	--material-color-cyan-50: #e0f7fa;
+	--material-color-cyan-50-light: #ffffff;
+	--material-color-cyan-50-dark: #aec4c7;
+
 	--material-color-cyan-100: #b2ebf2;
+	--material-color-cyan-100-light: #e5ffff;
+	--material-color-cyan-100-dark: #81b9bf;
+
 	--material-color-cyan-200: #80deea;
+	--material-color-cyan-200-light: #b4ffff;
+	--material-color-cyan-200-dark: #4bacb8;
+
 	--material-color-cyan-300: #4dd0e1;
+	--material-color-cyan-300-light: #88ffff;
+	--material-color-cyan-300-dark: #009faf;
+
 	--material-color-cyan-400: #26c6da;
+	--material-color-cyan-400-light: #6ff9ff;
+	--material-color-cyan-400-dark: #0095a8;
+
 	--material-color-cyan-500: #00bcd4;
+	--material-color-cyan-500-light: #62efff;
+	--material-color-cyan-500-dark: #008ba3;
+
 	--material-color-cyan-600: #00acc1;
+	--material-color-cyan-600-light: #5ddef4;
+	--material-color-cyan-600-dark: #007c91;
+
 	--material-color-cyan-700: #0097a7;
+	--material-color-cyan-700-light: #56c8d8;
+	--material-color-cyan-700-dark: #006978;
+
 	--material-color-cyan-800: #00838f;
+	--material-color-cyan-800-light: #4fb3bf;
+	--material-color-cyan-800-dark: #005662;
+
 	--material-color-cyan-900: #006064;
+	--material-color-cyan-900-light: #428e92;
+	--material-color-cyan-900-dark: #00363a;
+
 	--material-color-cyan-a100: #84ffff;
+	--material-color-cyan-a100-light: #baffff;
+	--material-color-cyan-a100-dark: #4bcbcc;
+
 	--material-color-cyan-a200: #18ffff;
+	--material-color-cyan-a200-light: #76ffff;
+	--material-color-cyan-a200-dark: #00cbcc;
+
 	--material-color-cyan-a400: #00e5ff;
+	--material-color-cyan-a400-light: #6effff;
+	--material-color-cyan-a400-dark: #00b2cc;
+
 	--material-color-cyan-a700: #00b8d4;
+	--material-color-cyan-a700-light: #62ebff;
+	--material-color-cyan-a700-dark: #0088a3;
+
+
+	/* TEAL */
 
 	--material-color-teal-50: #e0f2f1;
+	--material-color-teal-50-light: #ffffff;
+	--material-color-teal-50-dark: #aebfbe;
+
 	--material-color-teal-100: #b2dfdb;
+	--material-color-teal-100-light: #e5ffff;
+	--material-color-teal-100-dark: #82ada9;
+
 	--material-color-teal-200: #80cbc4;
+	--material-color-teal-200-light: #b2fef7;
+	--material-color-teal-200-dark: #4f9a94;
+
 	--material-color-teal-300: #4db6ac;
+	--material-color-teal-300-light: #82e9de;
+	--material-color-teal-300-dark: #00867d;
+
 	--material-color-teal-400: #26a69a;
+	--material-color-teal-400-light: #64d8cb;
+	--material-color-teal-400-dark: #00766c;
+
 	--material-color-teal-500: #009688;
+	--material-color-teal-500-light: #52c7b8;
+	--material-color-teal-500-dark: #00675b;
+
 	--material-color-teal-600: #00897b;
+	--material-color-teal-600-light: #4ebaaa;
+	--material-color-teal-600-dark: #005b4f;
+
 	--material-color-teal-700: #00796b;
+	--material-color-teal-700-light: #48a999;
+	--material-color-teal-700-dark: #004c40;
+
 	--material-color-teal-800: #00695c;
+	--material-color-teal-800-light: #439889;
+	--material-color-teal-800-dark: #003d33;
+
 	--material-color-teal-900: #004d40;
+	--material-color-teal-900-light: #39796b;
+	--material-color-teal-900-dark: #00251a;
+
 	--material-color-teal-a100: #a7ffeb;
+	--material-color-teal-a100-light: #dbffff;
+	--material-color-teal-a100-dark: #75ccb9;
+
 	--material-color-teal-a200: #64ffda;
+	--material-color-teal-a200-light: #9effff;
+	--material-color-teal-a200-dark: #14cba8;
+
 	--material-color-teal-a400: #1de9b6;
+	--material-color-teal-a400-light: #6effe8;
+	--material-color-teal-a400-dark: #00b686;
+
 	--material-color-teal-a700: #00bfa5;
+	--material-color-teal-a700-light: #5df2d6;
+	--material-color-teal-a700-dark: #008e76;
+
+
+	/* GREEN */
 
 	--material-color-green-50: #e8f5e9;
+	--material-color-green-50-light: #ffffff;
+	--material-color-green-50-dark: #b6c2b7;
+
 	--material-color-green-100: #c8e6c9;
+	--material-color-green-100-light: #fbfffc;
+	--material-color-green-100-dark: #97b498;
+
 	--material-color-green-200: #a5d6a7;
+	--material-color-green-200-light: #d7ffd9;
+	--material-color-green-200-dark: #75a478;
+
 	--material-color-green-300: #81c784;
+	--material-color-green-300-light: #b2fab4;
+	--material-color-green-300-dark: #519657;
+
 	--material-color-green-400: #66bb6a;
+	--material-color-green-400-light: #98ee99;
+	--material-color-green-400-dark: #338a3e;
+
 	--material-color-green-500: #4caf50;
+	--material-color-green-500-light: #80e27e;
+	--material-color-green-500-dark: #087f23;
+
 	--material-color-green-600: #43a047;
+	--material-color-green-600-light: #76d275;
+	--material-color-green-600-dark: #00701a;
+
 	--material-color-green-700: #388e3c;
+	--material-color-green-700-light: #6abf69;
+	--material-color-green-700-dark: #00600f;
+
 	--material-color-green-800: #2e7d32;
+	--material-color-green-800-light: #60ad5e;
+	--material-color-green-800-dark: #005005;
+
 	--material-color-green-900: #1b5e20;
+	--material-color-green-900-light: #4c8c4a;
+	--material-color-green-900-dark: #003300;
+
 	--material-color-green-a100: #b9f6ca;
+	--material-color-green-a100-light: #ecfffd;
+	--material-color-green-a100-dark: #88c399;
+
 	--material-color-green-a200: #69f0ae;
+	--material-color-green-a200-light: #9fffe0;
+	--material-color-green-a200-dark: #2bbd7e;
+
 	--material-color-green-a400: #00e676;
+	--material-color-green-a400-light: #66ffa6;
+	--material-color-green-a400-dark: #00b248;
+
 	--material-color-green-a700: #00c853;
+	--material-color-green-a700-light: #5efc82;
+	--material-color-green-a700-dark: #009624;
+
+
+	/* LIGHT GREEN */
 
 	--material-color-light-green-50: #f1f8e9;
+	--material-color-light-green-50-light: #ffffff;
+	--material-color-light-green-50-dark: #bec5b7;
+
 	--material-color-light-green-100: #dcedc8;
+	--material-color-light-green-100-light: #fffffb;
+	--material-color-light-green-100-dark: #aabb97;
+
 	--material-color-light-green-200: #c5e1a5;
+	--material-color-light-green-200-light: #f8ffd7;
+	--material-color-light-green-200-dark: #94af76;
+
 	--material-color-light-green-300: #aed581;
+	--material-color-light-green-300-light: #e1ffb1;
+	--material-color-light-green-300-dark: #7da453;
+
 	--material-color-light-green-400: #9ccc65;
+	--material-color-light-green-400-light: #cfff95;
+	--material-color-light-green-400-dark: #6b9b37;
+
 	--material-color-light-green-500: #8bc34a;
+	--material-color-light-green-500-light: #bef67a;
+	--material-color-light-green-500-dark: #5a9216;
+
 	--material-color-light-green-600: #7cb342;
+	--material-color-light-green-600-light: #aee571;
+	--material-color-light-green-600-dark: #4b830d;
+
 	--material-color-light-green-700: #689f38;
+	--material-color-light-green-700-light: #99d066;
+	--material-color-light-green-700-dark: #387002;
+
 	--material-color-light-green-800: #558b2f;
+	--material-color-light-green-800-light: #85bb5c;
+	--material-color-light-green-800-dark: #255d00;
+
 	--material-color-light-green-900: #33691e;
+	--material-color-light-green-900-light: #629749;
+	--material-color-light-green-900-dark: #003d00;
+
 	--material-color-light-green-a100: #ccff90;
+	--material-color-light-green-a100-light: #ffffc2;
+	--material-color-light-green-a100-dark: #99cc60;
+
 	--material-color-light-green-a200: #b2ff59;
+	--material-color-light-green-a200-light: #e7ff8c;
+	--material-color-light-green-a200-dark: #7ecb20;
+
 	--material-color-light-green-a400: #76ff03;
+	--material-color-light-green-a400-light: #b0ff57;
+	--material-color-light-green-a400-dark: #32cb00;
+
 	--material-color-light-green-a700: #64dd17;
+	--material-color-light-green-a700-light: #9cff57;
+	--material-color-light-green-a700-dark: #1faa00;
+
+
+	/* LIME */
 
 	--material-color-lime-50: #f9fbe7;
+	--material-color-lime-50-light: #ffffff;
+	--material-color-lime-50-dark: #c6c8b5;
+
 	--material-color-lime-100: #f0f4c3;
+	--material-color-lime-100-light: #fffff6;
+	--material-color-lime-100-dark: #bdc192;
+
 	--material-color-lime-200: #e6ee9c;
+	--material-color-lime-200-light: #ffffce;
+	--material-color-lime-200-dark: #b3bc6d;
+
 	--material-color-lime-300: #dce775;
+	--material-color-lime-300-light: #ffffa6;
+	--material-color-lime-300-dark: #a8b545;
+
 	--material-color-lime-400: #d4e157;
+	--material-color-lime-400-light: #ffff89;
+	--material-color-lime-400-dark: #a0af22;
+
 	--material-color-lime-500: #cddc39;
+	--material-color-lime-500-light: #ffff6e;
+	--material-color-lime-500-dark: #99aa00;
+
 	--material-color-lime-600: #c0ca33;
+	--material-color-lime-600-light: #f5fd67;
+	--material-color-lime-600-dark: #8c9900;
+
 	--material-color-lime-700: #afb42b;
+	--material-color-lime-700-light: #e4e65e;
+	--material-color-lime-700-dark: #7c8500;
+
 	--material-color-lime-800: #9e9d24;
+	--material-color-lime-800-light: #d2ce56;
+	--material-color-lime-800-dark: #6c6f00;
+
 	--material-color-lime-900: #827717;
+	--material-color-lime-900-light: #b4a647;
+	--material-color-lime-900-dark: #524c00;
+
 	--material-color-lime-a100: #f4ff81;
+	--material-color-lime-a100-light: #ffffb3;
+	--material-color-lime-a100-dark: #bfcc50;
+
 	--material-color-lime-a200: #eeff41;
+	--material-color-lime-a200-light: #ffff78;
+	--material-color-lime-a200-dark: #b8cc00;
+
 	--material-color-lime-a400: #c6ff00;
+	--material-color-lime-a400-light: #fdff58;
+	--material-color-lime-a400-dark: #90cc00;
+
 	--material-color-lime-a700: #aeea00;
+	--material-color-lime-a700-light: #e4ff54;
+	--material-color-lime-a700-dark: #79b700;
+
+
+	/* YELLOW */
 
 	--material-color-yellow-50: #fffde7;
+	--material-color-yellow-50-light: #ffffff;
+	--material-color-yellow-50-dark: #cccab5;
+
 	--material-color-yellow-100: #fff9c4;
+	--material-color-yellow-100-light: #fffff7;
+	--material-color-yellow-100-dark: #cbc693;
+
 	--material-color-yellow-200: #fff59d;
+	--material-color-yellow-200-light: #ffffcf;
+	--material-color-yellow-200-dark: #cbc26d;
+
 	--material-color-yellow-300: #fff176;
+	--material-color-yellow-300-light: #ffffa8;
+	--material-color-yellow-300-dark: #cabf45;
+
 	--material-color-yellow-400: #ffee58;
+	--material-color-yellow-400-light: #ffff8b;
+	--material-color-yellow-400-dark: #c9bc1f;
+
 	--material-color-yellow-500: #ffeb3b;
+	--material-color-yellow-500-light: #ffff72;
+	--material-color-yellow-500-dark: #c8b900;
+
 	--material-color-yellow-600: #fdd835;
+	--material-color-yellow-600-light: #ffff6b;
+	--material-color-yellow-600-dark: #c6a700;
+
 	--material-color-yellow-700: #fbc02d;
+	--material-color-yellow-700-light: #fff263;
+	--material-color-yellow-700-dark: #c49000;
+
 	--material-color-yellow-800: #f9a825;
+	--material-color-yellow-800-light: #ffd95a;
+	--material-color-yellow-800-dark: #c17900;
+
 	--material-color-yellow-900: #f57f17;
+	--material-color-yellow-900-light: #ffb04c;
+	--material-color-yellow-900-dark: #bc5100;
+
 	--material-color-yellow-a100: #ffff8d;
-	--material-color-yellow-a200: #ff0;
+	--material-color-yellow-a100-light: #ffffbf;
+	--material-color-yellow-a100-dark: #cacc5d;
+
+	--material-color-yellow-a200: #ffff00;
+	--material-color-yellow-a200-light: #ffff5a;
+	--material-color-yellow-a200-dark: #c7cc00;
+	
 	--material-color-yellow-a400: #ffea00;
+	--material-color-yellow-a400-light: #ffff56;
+	--material-color-yellow-a400-dark: #c7b800;
+
 	--material-color-yellow-a700: #ffd600;
+	--material-color-yellow-a700-light: #ffff52;
+	--material-color-yellow-a700-dark: #c7a500;
+
+
+	/* AMBER */
 
 	--material-color-amber-50: #fff8e1;
+	--material-color-amber-50-light: #ffffff;
+	--material-color-amber-50-dark: #ccc5af;
+
 	--material-color-amber-100: #ffecb3;
+	--material-color-amber-100-light: #ffffe5;
+	--material-color-amber-100-dark: #cbba83;
+
 	--material-color-amber-200: #ffe082;
+	--material-color-amber-200-light: #ffffb3;
+	--material-color-amber-200-dark: #caae53;
+
 	--material-color-amber-300: #ffd54f;
+	--material-color-amber-300-light: #ffff81;
+	--material-color-amber-300-dark: #c8a415;
+
 	--material-color-amber-400: #ffca28;
+	--material-color-amber-400-light: #fffd61;
+	--material-color-amber-400-dark: #c79a00;
+
 	--material-color-amber-500: #ffc107;
+	--material-color-amber-500-light: #fff350;
+	--material-color-amber-500-dark: #c79100;
+
 	--material-color-amber-600: #ffb300;
+	--material-color-amber-600-light: #ffe54c;
+	--material-color-amber-600-dark: #c68400;
+
 	--material-color-amber-700: #ffa000;
+	--material-color-amber-700-light: #ffd149;
+	--material-color-amber-700-dark: #c67100;
+
 	--material-color-amber-800: #ff8f00;
+	--material-color-amber-800-light: #ffc046;
+	--material-color-amber-800-dark: #c56000;
+
 	--material-color-amber-900: #ff6f00;
+	--material-color-amber-900-light: #ffa040;
+	--material-color-amber-900-dark: #c43e00;
+
 	--material-color-amber-a100: #ffe57f;
+	--material-color-amber-a100-light: #ffffb0;
+	--material-color-amber-a100-dark: #cab350;
+
 	--material-color-amber-a200: #ffd740;
+	--material-color-amber-a200-light: #ffff74;
+	--material-color-amber-a200-dark: #c8a600;
+
 	--material-color-amber-a400: #ffc400;
+	--material-color-amber-a400-light: #fff64f;
+	--material-color-amber-a400-dark: #c79400;
+
 	--material-color-amber-a700: #ffab00;
+	--material-color-amber-a700-light: #ffdd4b;
+	--material-color-amber-a700-dark: #c67c00;
+
+
+	/* ORANGE */
 
 	--material-color-orange-50: #fff3e0;
+	--material-color-orange-50-light: #ffffff;
+	--material-color-orange-50-dark: #ccc0ae;
+
 	--material-color-orange-100: #ffe0b2;
+	--material-color-orange-100-light: #ffffe4;
+	--material-color-orange-100-dark: #cbae82;
+
 	--material-color-orange-200: #ffcc80;
+	--material-color-orange-200-light: #ffffb0;
+	--material-color-orange-200-dark: #ca9b52;
+
 	--material-color-orange-300: #ffb74d;
+	--material-color-orange-300-light: #ffe97d;
+	--material-color-orange-300-dark: #c88719;
+
 	--material-color-orange-400: #ffa726;
+	--material-color-orange-400-light: #ffd95b;
+	--material-color-orange-400-dark: #c77800;
+
 	--material-color-orange-500: #ff9800;
+	--material-color-orange-500-light: #ffc947;
+	--material-color-orange-500-dark: #c66900;
+
 	--material-color-orange-600: #fb8c00;
+	--material-color-orange-600-light: #ffbd45;
+	--material-color-orange-600-dark: #c25e00;
+
 	--material-color-orange-700: #f57c00;
+	--material-color-orange-700-light: #ffad42;
+	--material-color-orange-700-dark: #bb4d00;
+
 	--material-color-orange-800: #ef6c00;
+	--material-color-orange-800-light: #ff9d3f;
+	--material-color-orange-800-dark: #b53d00;
+
 	--material-color-orange-900: #e65100;
+	--material-color-orange-900-light: #ff833a;
+	--material-color-orange-900-dark: #ac1900;
+
 	--material-color-orange-a100: #ffd180;
+	--material-color-orange-a100-light: #ffffb1;
+	--material-color-orange-a100-dark: #caa052;
+
 	--material-color-orange-a200: #ffab40;
+	--material-color-orange-a200-light: #ffdd71;
+	--material-color-orange-a200-dark: #c77c02;
+
 	--material-color-orange-a400: #ff9100;
+	--material-color-orange-a400-light: #ffc246;
+	--material-color-orange-a400-dark: #c56200;
+
 	--material-color-orange-a700: #ff6d00;
+	--material-color-orange-a700-light: #ff9e40;
+	--material-color-orange-a700-dark: #c43c00;
+
+
+	/* DEEP ORANGE */
 
 	--material-color-deep-orange-50: #fbe9e7;
+	--material-color-deep-orange-50-light: #ffffff;
+	--material-color-deep-orange-50-dark: #c8b7b5;
+
 	--material-color-deep-orange-100: #ffccbc;
+	--material-color-deep-orange-100-light: #ffffee;
+	--material-color-deep-orange-100-dark: #cb9b8c;
+
 	--material-color-deep-orange-200: #ffab91;
+	--material-color-deep-orange-200-light: #ffddc1;
+	--material-color-deep-orange-200-dark: #c97b63;
+
 	--material-color-deep-orange-300: #ff8a65;
+	--material-color-deep-orange-300-light: #ffbb93;
+	--material-color-deep-orange-300-dark: #c75b39;
+
 	--material-color-deep-orange-400: #ff7043;
+	--material-color-deep-orange-400-light: #ffa270;
+	--material-color-deep-orange-400-dark: #c63f17;
+
 	--material-color-deep-orange-500: #ff5722;
+	--material-color-deep-orange-500-light: #ff8a50;
+	--material-color-deep-orange-500-dark: #c41c00;
+
 	--material-color-deep-orange-600: #f4511e;
+	--material-color-deep-orange-600-light: #ff844c;
+	--material-color-deep-orange-600-dark: #b91400;
+
 	--material-color-deep-orange-700: #e64a19;
+	--material-color-deep-orange-700-light: #ff7d47;
+	--material-color-deep-orange-700-dark: #ac0800;
+
 	--material-color-deep-orange-800: #d84315;
+	--material-color-deep-orange-800-light: #ff7543;
+	--material-color-deep-orange-800-dark: #9f0000;
+
 	--material-color-deep-orange-900: #bf360c;
+	--material-color-deep-orange-900-light: #f9683a;
+	--material-color-deep-orange-900-dark: #870000;
+
 	--material-color-deep-orange-a100: #ff9e80;
+	--material-color-deep-orange-a100-light: #ffd0b0;
+	--material-color-deep-orange-a100-dark: #c96f53;
+
 	--material-color-deep-orange-a200: #ff6e40;
+	--material-color-deep-orange-a200-light: #ffa06d;
+	--material-color-deep-orange-a200-dark: #c53d13;
+
 	--material-color-deep-orange-a400: #ff3d00;
+	--material-color-deep-orange-a400-light: #ff7539;
+	--material-color-deep-orange-a400-dark: #c30000;
+
 	--material-color-deep-orange-a700: #dd2c00;
+	--material-color-deep-orange-a700-light: #ff6434;
+	--material-color-deep-orange-a700-dark: #a30000;
+
+
+	/* BROWN */
 
 	--material-color-brown-50: #efebe9;
+	--material-color-brown-50-light: #ffffff;
+	--material-color-brown-50-dark: #bdb9b7;
+
 	--material-color-brown-100: #d7ccc8;
+	--material-color-brown-100-light: #fffffb;
+	--material-color-brown-100-dark: #a69b97;
+
 	--material-color-brown-200: #bcaaa4;
+	--material-color-brown-200-light: #efdcd5;
+	--material-color-brown-200-dark: #8c7b75;
+
 	--material-color-brown-300: #a1887f;
+	--material-color-brown-300-light: #d3b8ae;
+	--material-color-brown-300-dark: #725b53;
+
 	--material-color-brown-400: #8d6e63;
+	--material-color-brown-400-light: #be9c91;
+	--material-color-brown-400-dark: #5f4339;
+
 	--material-color-brown-500: #795548; 
+	--material-color-brown-500-light: #a98274; 
+	--material-color-brown-500-dark: #4b2c20;
+
 	--material-color-brown-600: #6d4c41;
+	--material-color-brown-600-light: #9c786c;
+	--material-color-brown-600-dark: #40241a;
+
 	--material-color-brown-700: #5d4037;
+	--material-color-brown-700-light: #8b6b61;
+	--material-color-brown-700-dark: #321911;
+
 	--material-color-brown-800: #4e342e;
+	--material-color-brown-800-light: #7b5e57;
+	--material-color-brown-800-dark: #260e04;
+
 	--material-color-brown-900: #3e2723;
+	--material-color-brown-900-light: #6a4f4b;
+	--material-color-brown-900-dark: #1b0000;
+
+
+	/* GREY */
 
 	--material-color-grey-50: #fafafa;
+	--material-color-grey-50-light: #ffffff;
+	--material-color-grey-50-dark: #c7c7c7;
+
 	--material-color-grey-100: #f5f5f5;
-	--material-color-grey-200: #eee;
+	--material-color-grey-100-light: #ffffff;
+	--material-color-grey-100-dark: #c2c2c2;
+
+	--material-color-grey-200: #eeeeee;
+	--material-color-grey-200-light: #ffffff;
+	--material-color-grey-200-dark: #bcbcbc;
+	
 	--material-color-grey-300: #e0e0e0;
+	--material-color-grey-300-light: #ffffff;
+	--material-color-grey-300-dark: #aeaeae;
+
 	--material-color-grey-400: #bdbdbd;
+	--material-color-grey-400-light: #efefef;
+	--material-color-grey-400-dark: #8d8d8d;
+
 	--material-color-grey-500: #9e9e9e;
+	--material-color-grey-500-light: #cfcfcf;
+	--material-color-grey-500-dark: #707070;
+
 	--material-color-grey-600: #757575;
+	--material-color-grey-600-light: #a4a4a4;
+	--material-color-grey-600-dark: #494949;
+
 	--material-color-grey-700: #616161;
+	--material-color-grey-700-light: #8e8e8e;
+	--material-color-grey-700-dark: #373737;
+
 	--material-color-grey-800: #424242;
+	--material-color-grey-800-light: #6d6d6d;
+	--material-color-grey-800-dark: #1b1b1b;
+
 	--material-color-grey-900: #212121;
+	--material-color-grey-900-light: #484848;
+	--material-color-grey-900-dark: #000000;
+
+
+	/* BLUE GREY */
 
 	--material-color-blue-grey-50: #eceff1;
+	--material-color-blue-grey-50-light: #ffffff;
+	--material-color-blue-grey-50-dark: #babdbe;
+
 	--material-color-blue-grey-100: #cfd8dc;
+	--material-color-blue-grey-100-light: #ffffff;
+	--material-color-blue-grey-100-dark: #9ea7aa;
+
 	--material-color-blue-grey-200: #b0bec5;
+	--material-color-blue-grey-200-light: #e2f1f8;
+	--material-color-blue-grey-200-dark: #808e95;
+
 	--material-color-blue-grey-300: #90a4ae;
+	--material-color-blue-grey-300-light: #c1d5e0;
+	--material-color-blue-grey-300-dark: #62757f;
+
 	--material-color-blue-grey-400: #78909c;
+	--material-color-blue-grey-400-light: #a7c0cd;
+	--material-color-blue-grey-400-dark: #4b636e;
+
 	--material-color-blue-grey-500: #607d8b;
+	--material-color-blue-grey-500-light: #8eacbb;
+	--material-color-blue-grey-500-dark: #34515e;
+
 	--material-color-blue-grey-600: #546e7a;
+	--material-color-blue-grey-600-light: #819ca9;
+	--material-color-blue-grey-600-dark: #29434e;
+
 	--material-color-blue-grey-700: #455a64;
+	--material-color-blue-grey-700-light: #718792;
+	--material-color-blue-grey-700-dark: #1c313a;
+
 	--material-color-blue-grey-800: #37474f;
+	--material-color-blue-grey-800-light: #62727b;
+	--material-color-blue-grey-800-dark: #102027;
+
 	--material-color-blue-grey-900: #263238;
+	--material-color-blue-grey-900-light: #4f5b62;
+	--material-color-blue-grey-900-dark: #000a12;
+
 }
